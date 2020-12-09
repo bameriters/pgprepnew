@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "692076605910",
+    "firebase_url": "https://peaceful-surge-633.firebaseio.com",
+    "project_id": "peaceful-surge-633",
+    "storage_bucket": "peaceful-surge-633.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692076605910:android:4692a79ecc42a754",
+        "android_client_info": {
+          "package_name": "com.pgprep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692076605910-vcibmjnr79a03oei94b7pj962lbvl8nd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pgprep",
+            "certificate_hash": "dd5774a063fb4705cf8e3db42698744e89612dcd"
+          }
+        },
+        {
+          "client_id": "692076605910-d9knv5v2img9nna0bghbmu220n968ek6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZzMa0vfVrXF2ZzQPupl95r3F6VAt3cvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

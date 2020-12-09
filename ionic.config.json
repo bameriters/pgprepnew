@@ -1,0 +1,17 @@
+{
+  "name": "pgprep",
+  "type": "custom",
+  "integrations": {
+    "cordova": {
+		"cordovaPlugins": [
+			{
+			   "locator": "cordova-plugin-facebook4",
+			   "variables": {
+				   "APP_ID": "657240664388453",
+				   "APP_NAME": "PGPrep"
+			   }
+			}
+		]
+	}
+  }
+}

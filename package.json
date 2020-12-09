@@ -1,0 +1,17 @@
+{
+  "name": "pgprep",
+  "version": "1.0.0",
+  "description": "my cordova app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bameriters/pgprep.git"
+  },
+  "author": "My Name",
+  "license": "ISC",
+  "homepage": "https://myhomepage.com"
+}
+

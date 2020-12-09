@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="viewport-fit=cover, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+		<title>PGPrep</title>
+		<!-- Css -->
+		<link rel="stylesheet" href="assets/css/plugins/plugins.css"/>
+		<link rel="stylesheet" href="https://pgprep.com/app5/assets/css/style.css"/>
+	</head>
+	<body class="app-version">
+		<div class="app">
+			<div id="fb-root"></div>
+			<div class="navbar navbar-default navbar-fixed-top" id="navbar">
+				<div class="navbar-container" id="navbar-container">
+					<button type="button" class="navbar-toggle no-border float-left" onclick="navigationMenu();" style="background:#222222;">
+						<span class="fal fa-bars font25 text-white"></span>
+					</button>
+					<div class="navbar-header menu-header float-left color-white font17 pl-1 text-uppercase"></div>
+					<div class="navbar-buttons navbar-header float-right font15" role="navigation"></div>
+				</div>
+			</div>
+			<div class="main-container" id="main-container">
+				<div class="main-container-inner">
+					<div class="col-sm-12 web-left-section">
+						<div class="main-content"></div>
+					</div>
+				</div>
+			</div>
+			<div class="page-load-screen"><div class="progress-loader float"><div class="progress-item"></div></div></div>
+			
+			<!--Bottom Navigation-->
+			<div class="bottom-navigation-menu"></div>
+			<ul class="nav nav-list app-nav-menu appNavContent left-navigation"></ul>
+			<input type="hidden" name="deviceType" value="M">
+		</div>
+		<!-- Scripts -->
+		<script type="text/javascript">var isCordovaApp = true;</script>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script src="assets/js/plugins/plugins-main.js"></script>
+		<script src="https://pgprep.com/app5/assets/js/default.js"></script>
+		<script src="https://pgprep.com/app5/assets/js/app.js"></script>
+		<div class="externel-js-files"></div>
+		<div class="extra-plugin-files"></div>
+		<script type="text/javascript">
+			$(".extra-plugin-files").append('<script type="text/javascript" src="https://pgprep.com/app5/assets/js/version.js?ts='+new Date().getTime()+'"><\/script>');
+		</script>		
+	</body>
+</html>
